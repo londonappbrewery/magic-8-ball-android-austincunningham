@@ -20,7 +20,7 @@
         <TextView
             android:id="@+id/title"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/title"
             android:textColor="@android:color/background_light"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="103dp"
+            android:layout_marginTop="139dp"
             android:contentDescription="@string/eightBall"
             app:srcCompat="@drawable/ball1" />
     </RelativeLayout>
@@ -57,7 +57,11 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/button" />
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </RelativeLayout>
 
 </RelativeLayout>
